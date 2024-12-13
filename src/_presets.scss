@@ -1,0 +1,36 @@
+@use "styles";
+
+.text-title {
+  font-size: styles.$font-size-l;
+  line-height: styles.$line-height-sm;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.text-subtitle {
+  font-size: styles.$font-size-md;
+  line-height: styles.$line-height-md;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.text-body-bold {
+  font-size: styles.$font-size-sm;
+  line-height: styles.$line-height-lg;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+.text-body-regular {
+  font-size: styles.$font-size-xsm;
+  line-height: styles.$line-height-lg;
+  letter-spacing: 0;
+  font-weight: normal;
+}
+
+.text-body-regular-bold {
+  font-size: styles.$font-size-xsm;
+  line-height: styles.$line-height-lg;
+  letter-spacing: 0;
+  font-weight: bold;
+}
